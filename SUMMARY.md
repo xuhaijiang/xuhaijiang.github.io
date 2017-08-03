@@ -13,6 +13,7 @@
   * [SAP Mobile Platform](sap/sap-mobile-platform.md)
   * [SAP Ui5](sap/sap-ui5.md)
   * [SAP Cloud Platform](sap/sap-cloud-platform.md)
+  * [FAQ](sap/faq.md)
 * [node](node.md)
   * [CommonJS](node/commonjs.md)
   * [JS Lib](node/js-lib.md)
