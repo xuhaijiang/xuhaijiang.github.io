@@ -8,4 +8,5 @@
 * [mysql](mysql.md)
 * [solr](solr.md)
 * [maven](maven.md)
+* [cloud](cloud.md)
 
