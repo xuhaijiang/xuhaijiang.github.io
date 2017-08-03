@@ -19,10 +19,8 @@
   * [6.5 FAQ](sap/faq.md)
 * [7 杂](za.md)
   * [7.1 HANA](杂/cloud.md)
-
-* [cloud](cloud.md)
-* [solr](solr.md)
-* [maven](maven.md)
-* [git](git.md)
-* [cwm](cwm.md)
+  * [7.2 solr](杂/solr.md)
+  * [7.3 maven](杂/maven.md)
+  * [7.4 git](杂/git.md)
+  * [7.5 cwm](杂/cwm.md)
 
