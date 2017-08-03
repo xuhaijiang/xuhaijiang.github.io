@@ -1,11 +1,11 @@
-## maven
+#### maven
 
 
-### 自定义的 jar 到 Maven 的本地资源库
+##### 自定义的 jar 到 Maven 的本地资源库
 
 	mvn install:install-file -Dfile=e:\kaptcha-2.3.2.jar -DgroupId=com.google.code -DartifactId=kaptcha -Dversion=2.3.2 -Dpackaging=jar
 
-### Maven 编译器插件
+##### Maven 编译器插件
 
 	<plugin>
 		<groupId>org.apache.maven.plugins</groupId>
@@ -17,7 +17,7 @@
 		</configuration>
 	</plugin>
 
-### 添加外部依赖项中,使用下列方式到Maven的pom.xml
+##### 添加外部依赖项中,使用下列方式到Maven的pom.xml
 
 	<dependency>
 	 <groupId>ldapjdk</groupId>
@@ -27,11 +27,11 @@
 	 <systemPath>${basedir}src/lib/ldapjdk.jar</systemPath>
 	</dependency>
 
-### Maven 打包
+##### Maven 打包
 
 	mvn package
 
-### 本地jar，导入到maven中
+##### 本地jar，导入到maven中
 
 	mvn install:install-file -DgroupId=org.roof -DartifactId=roof-web-org-service-api -Dversion=3.0.1 -Dpackaging=jar -Dfile=F:\SVNClient\Company\public\develop\dome\repository\org\roof\roof-web-org-service-api\3.0.1\roof-web-org-service-api-3.0.1.jar
 
@@ -39,7 +39,7 @@
 
 
 
-###	设定主仓库，按设定顺序进行查找
+#####	设定主仓库，按设定顺序进行查找
 	<repositories>
 		<!-- 如有Nexus私服, 取消注释并指向正确的服务器地址. -->
 		<repository> 
@@ -56,7 +56,7 @@
 	</repositories>
 
 
-### 设定插件仓库 
+##### 设定插件仓库 
 	<pluginRepositories>
 		<!-- 如有Nexus私服, 取消注释并指向正确的服务器地址. -->
 		<pluginRepository>
@@ -74,7 +74,7 @@
 	</pluginRepositories>
 
 	
-### pom.xml 的配置方案：
+##### pom.xml 的配置方案：
 
  	<repositories>
         <repository>
@@ -98,7 +98,7 @@
         </pluginRepository>
     </pluginRepositories>
 
-### setting
+##### setting
 
 	<mirror>
         <id>alimaven</id>
