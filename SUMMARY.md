@@ -6,4 +6,5 @@
 * [cwm](cwm.md)
 * [linux](linux.md)
 * [mysql](mysql.md)
+* [solr](solr.md)
 
