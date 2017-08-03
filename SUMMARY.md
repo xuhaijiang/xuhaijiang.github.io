@@ -7,4 +7,5 @@
 * [linux](linux.md)
 * [mysql](mysql.md)
 * [solr](solr.md)
+* [maven](maven.md)
 
