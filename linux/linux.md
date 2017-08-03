@@ -61,7 +61,7 @@
 
 
 
-### 为高级用户而设计的稳定的 Markdown 编辑器 ###
+##### 为高级用户而设计的稳定的 Markdown 编辑器
  
  MarkdownPad 支持多种 Markdown 解析引擎，包括 标准 Markdown 、 Markdown 扩展 (包括表格支持) 以及 GitHub 风格 Markdown 。
  
