@@ -1,11 +1,11 @@
-## spring annotation ##
+### spring annotation
 
-### @Required ###
+#### @Required
 
 应用于 bean 属性的 setter 方法。
 
 
-### @Autowired @Qualifier @Resource ###
+#### @Autowired @Qualifier @Resource
 
 - @Autowired自动装配
 - @Qualifier配合@Autowired指定唯一bean
@@ -80,7 +80,7 @@
 	}
 
 
-### @Controller @Service @Repository @Component###
+#### @Controller @Service @Repository @Component
 
 - **@Controller** 用于标注控制层组件
 - **@Service** 用于标注业务层组件
@@ -88,7 +88,7 @@
 - **@Component** 泛指组件，当组件无法归类时可用
 
 
-### @Bean ###
+#### @Bean
 
 表明一个方法产生一个bean是由Spring容器管理。
 
@@ -102,7 +102,7 @@
         return new Sender();
     }
 
-### @PostConstruct  @PreDestroy ###
+#### @PostConstruct  @PreDestroy
 
 实现初始化和销毁bean之前进行的操作
 
