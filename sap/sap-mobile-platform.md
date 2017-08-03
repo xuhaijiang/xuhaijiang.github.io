@@ -1,4 +1,4 @@
-## SMP(SAP Mobile Platform)
+#### SMP(SAP Mobile Platform)
 企业级移动平台，它包含
 - 企业移动应用平台
 - 企业移动开发平台SUP(Sybase Unwired Platform)
@@ -12,7 +12,7 @@
 
 
 
-### SMP3 接口集成
+##### SMP3 接口集成
 - SAP Netweaver Gateway暴露出来的OData服务
 - Integration Gateway可将其它数据源转换为SMP可以消费的OData服务，支持SOAP、JDBC、JPA等
 
@@ -21,27 +21,27 @@
 > android studio  android开发环境    java
 
 
-### SAP Business Objects
+##### SAP Business Objects
 商务智能分析套件
 
 
-### SAP Business ByDesign
+##### SAP Business ByDesign
 中小企业ERP云
 
-### SAP SuccessFactors
+##### SAP SuccessFactors
 HR云
 
-### SAP Hybris
+##### SAP Hybris
 CRM云
 
-### SAP Ariba
+##### SAP Ariba
 采购云
 
-### SAP AnalyticsCloud
+##### SAP AnalyticsCloud
 分析云
 
-### Concur
+##### Concur
 差旅费用云
 
-### SAP Cloud Platform
+##### SAP Cloud Platform
 云平台
