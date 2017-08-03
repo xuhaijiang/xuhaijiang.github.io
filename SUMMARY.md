@@ -8,7 +8,7 @@
 * [git](git.md)
 * [cwm](cwm.md)
 * [spring](spring.md)
-  * [spring annotation](spring/1.md)
+  * [spring annotation](spring/annotation.md)
 * [linux](linux.md)
   * [linux](linux/linux.md)
 * java
