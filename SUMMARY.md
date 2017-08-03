@@ -11,6 +11,7 @@
   * [spring annotation](spring/annotation.md)
 * [linux](linux.md)
   * [linux](linux/linux.md)
-* java
-* mysql
+* [java](java.md)
+* [mysql](mysql.md)
+  * [FULL TEXT](mysql/mysql.md)
 
