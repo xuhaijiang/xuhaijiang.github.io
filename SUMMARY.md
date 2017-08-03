@@ -15,6 +15,7 @@
   * [SAP Cloud Platform](sap/sap-cloud-platform.md)
 * [node](node.md)
   * [CommonJS](node/commonjs.md)
+  * [JS Lib](node/js-lib.md)
 * [cloud](cloud.md)
 * [solr](solr.md)
 * [maven](maven.md)
