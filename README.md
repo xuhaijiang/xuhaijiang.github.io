@@ -1,3 +1,3 @@
-# My Awesome Book
+# My Book
 
 my
