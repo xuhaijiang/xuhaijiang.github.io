@@ -110,8 +110,4 @@ SAP的SUP平台
 
 
 
-##### UI5和SAP Fiori是什么关系？
-UI5是一个具体的前端框架，而SAP Fiori是一个前端交互标准
-
-
 
