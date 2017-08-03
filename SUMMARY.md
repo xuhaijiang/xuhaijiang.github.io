@@ -7,7 +7,7 @@
 * [3 linux](linux.md)
   * [3.1 linux](linux/linux.md)
 * [4 mysql](mysql.md)
-  * [4.1 全文索引](mysql/全文索引.md)
+  * [4.1 全文索引](mysql/full-text.md)
 * [5 node](node.md)
   * [5.1 CommonJS](node/commonjs.md)
   * [5.2 JS Lib](node/js-lib.md)
