@@ -11,7 +11,7 @@
 * [sap](sap.md)
   * [hana](sap/hana.md)
   * [SAP Mobile Platform](sap/sap-mobile-platform.md)
-  * [sapui5](sap/sapui5.md)
+  * [sap UI5](sap/sap-ui5.md)
   * [SAP Cloud Platform](sap/sap-cloud-platform.md)
 * [cloud](cloud.md)
 * [solr](solr.md)
