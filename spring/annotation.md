@@ -1,11 +1,11 @@
-### spring annotation
+#### spring annotation
 
-#### @Required
+##### @Required
 
 应用于 bean 属性的 setter 方法。
 
 
-#### @Autowired @Qualifier @Resource
+##### @Autowired @Qualifier @Resource
 
 - @Autowired自动装配
 - @Qualifier配合@Autowired指定唯一bean
