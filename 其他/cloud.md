@@ -7,17 +7,17 @@
 基础设施即服务
 
 1. 计算与网络
-	- 云服务器CVM
-	- 私有网络VPC
-	- 负载均衡CLB
-	- 云数据库CDB
+  - 云服务器CVM
+  - 私有网络VPC
+  - 负载均衡CLB
+  - 云数据库CDB
 2. 存储与内容分发
-	- 对象存储COS
-	- 内容分发网络CDN
+  - 对象存储COS
+  - 内容分发网络CDN
 3. 数据库
-	- 云数据库CDB
-	- 云存储Redis
-	- 云缓存Memcached
+  - 云数据库CDB
+  - 云存储Redis
+  - 云缓存Memcached
 
 ### PAAS
 
