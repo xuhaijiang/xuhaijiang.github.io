@@ -17,7 +17,7 @@
   * [6.3 SAP Ui5](sap/sap-ui5.md)
   * [6.4 SAP Cloud Platform](sap/sap-cloud-platform.md)
   * [6.5 FAQ](sap/faq.md)
-* [7 杂](za.md)
+* [7 其他](za.md)
   * [7.1 cloud](杂/cloud.md)
   * [7.2 solr](杂/solr.md)
   * [7.3 maven](杂/maven.md)
