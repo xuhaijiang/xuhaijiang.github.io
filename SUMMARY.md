@@ -13,5 +13,5 @@
   * [linux](linux/linux.md)
 
 * [mysql](mysql.md)
-  * [FULL TEXT](mysql/全文索引.md)
+  * [全文索引](mysql/全文索引.md)
 
