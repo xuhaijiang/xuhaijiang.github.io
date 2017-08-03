@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [cloud](cloud.md)
-* [mysql](mysql.md)
 * [solr](solr.md)
 * [maven](maven.md)
 * [git](git.md)
@@ -13,5 +12,5 @@
   * [linux](linux/linux.md)
 * [java](java.md)
 * [mysql](mysql.md)
-  * [FULL TEXT](mysql/mysql.md)
+  * [FULL TEXT](mysql/全文索引.md)
 
