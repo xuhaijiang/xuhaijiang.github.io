@@ -18,7 +18,7 @@
   * [6.4 SAP Cloud Platform](sap/sap-cloud-platform.md)
   * [6.5 FAQ](sap/faq.md)
 * [7 杂](za.md)
-  * [7.1 HANA](杂/hana.md)
+  * [7.1 HANA](杂/cloud.md)
 
 * [cloud](cloud.md)
 * [solr](solr.md)
