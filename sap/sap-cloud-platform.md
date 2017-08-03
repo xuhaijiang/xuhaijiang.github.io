@@ -1,4 +1,4 @@
-#### Developing with SAP Cloud Platform ##
+#### Developing with SAP Cloud Platform
 
 **SAP 云平台扩展开发**
 
