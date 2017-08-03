@@ -5,4 +5,5 @@
 * [git](git.md)
 * [cwm](cwm.md)
 * [linux](linux.md)
+* [mysql](mysql.md)
 
