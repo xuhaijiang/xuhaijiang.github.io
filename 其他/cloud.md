@@ -37,7 +37,7 @@
 
 DNS,域名系统。通过主机名，最终得到该主机名对应的IP地址
 
-![](./image/cloud/CDN原理.png)
+![](../image/cloud/CDN原理.png)
 
 
 ### GSLB(Global Server Load Balancing)技术
