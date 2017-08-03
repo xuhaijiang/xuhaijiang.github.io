@@ -1,17 +1,16 @@
-## Linux ##
+#### Linux
 
 **Linux：** 是一套免费使用和自由传播的类Unix操作系统内核。
 
 **GNU：** 英语：GNU General Public License，缩写：GNU GPL、GPL，是一个自由软件许可协议条款
 
-### 推荐书 ###
+##### 推荐书
 
 - **系统自带的文档**
 
 - 一本好入门教材 -> 一本linux指令参考手册 -> linux系统管理手册 -> 讲解linux系统原理的书
 
-### 版本 ###
-
+##### 版本
 - 内核版本
     - Linux内核版本号的格式是x.y.zz-www
 - 发行版版本
@@ -30,7 +29,7 @@
 - 标题 1, 2, 3 (`Ctrl+1`, `Ctrl+2`, `Ctrl+3`)
 - 列表 (`Ctrl+U` and `Ctrl+Shift+O`)
 
-### 常用网址 ###
+##### 常用网址
 
 - 国外
     - [kernel.org](http://www.kernel.org)
@@ -42,9 +41,9 @@
     - [linuxfans.org](http://www.linuxfans.org)
     - [linuxaid.com.cn](http://www.linuxaid.com.cn)
 
-### 基础知识 ###
+##### 基础知识
 
-##### Linux 目录 ####
+###### Linux 目录
  
 - **bin** 存放Linux常用命令
 - **boot** 存放系统启动时要用到的程序
