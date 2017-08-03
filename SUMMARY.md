@@ -12,11 +12,11 @@
   * [hana](sap/hana.md)
   * [SCP](sap/SAPCloudPlatform.md)
   * [SMP](sap/smp.md)
-  * [sapui5](sap/sapui5.md)  
+  * [sapui5](sap/sapui5.md)
+  * [SAP Cloud Platform](sap/sap-cloud-platform.md)
 * [cloud](cloud.md)
 * [solr](solr.md)
 * [maven](maven.md)
 * [git](git.md)
 * [cwm](cwm.md)
-
 
