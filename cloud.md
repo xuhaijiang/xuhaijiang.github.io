@@ -1,6 +1,6 @@
 ## 云相关概念
 
-![](../image/cloud/云计算的组成.png)
+![](./image/cloud/云计算的组成.png)
 
 ### LAAS 
 
