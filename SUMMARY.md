@@ -12,4 +12,5 @@
 * [linux](linux.md)
   * [linux](linux/linux.md)
 * java
+* mysql
 
