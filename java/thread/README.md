@@ -1,7 +1,6 @@
 #### 介绍
 
 - [Executor](executor.md) 具体Runnable任务的执行者
-
 - [ExecutorService](executorService.md) 一个线程池管理者，其实现类有多种，我会介绍一部分。我们能把Runnable,Callable提交到池中让其调度
 - [Semaphore](semaphore.md) 一个计数信号量
 - [ReentrantLock](reentrantLock.md) 一个可重入的互斥锁定 Lock，功能类似synchronized，但要强大的多。
