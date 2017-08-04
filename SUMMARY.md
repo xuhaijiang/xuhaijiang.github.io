@@ -8,7 +8,7 @@
   * [3.1 linux](linux/linux.md)
 * [4 mysql](mysql.md)
   * [4.1 全文索引](mysql/full-text.md)
-  * [mysql乱码](mysql/mysqlluan-ma.md)
+  * [4.2 mysql乱码](mysql/mysqlluan-ma.md)
 * [5 node](node.md)
   * [5.1 CommonJS](node/commonjs.md)
   * [5.2 JS Lib](node/js-lib.md)
