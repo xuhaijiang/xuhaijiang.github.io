@@ -12,8 +12,14 @@
 - link：链接到该网站的
 - related：相关、相似的网页
 
- 
+##### 搜索趋势
+www.google.com/trends
 
+##### 学术搜索
+scholar.google.com
+
+##### 专利网
+patents.google.com
 
 #### 文献资源来源
 
