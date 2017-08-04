@@ -13,6 +13,7 @@
   * [5.2 JS Lib](node/js-lib.md)
 * [6 tomcat](tomcat.md)
   * [6.1 SSL证书](tomcat/sslzheng-shu.md)
+  * [Tomcat配置](tomcat/tomcatpei-zhi.md)
 * [7 sap](sap.md)
   * [7.1 HANA](sap/hana.md)
   * [7.2 SAP Mobile Platform](sap/sap-mobile-platform.md)
@@ -27,5 +28,4 @@
   * [cwm](others/cwm.md)
   * [高级搜索](others/gao-ji-sou-suo.md)
   * [文献管理与分析](others/wen-xian-guan-li-yu-fen-xi.md)
-
 
