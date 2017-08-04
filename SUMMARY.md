@@ -26,11 +26,18 @@
   * [7.4 SAP Cloud Platform](sap/sap-cloud-platform.md)
   * [7.5 FAQ](sap/faq.md)
 * [others](sap.md)
-  * [1 HANA](sap/hana.md)
-  * [2 SAP Mobile Platform](sap/sap-mobile-platform.md)
-  * [3 SAP Ui5](sap/sap-ui5.md)
-  * [4 SAP Cloud Platform](sap/sap-cloud-platform.md)
-  * [5 FAQ](sap/faq.md)
+  * [高级搜索](others/gao-ji-sou-suo.md)
+  * [进阶学习论](others/resource.md)
+  * [cloud](others/cloud.md)
+  * [cwm](others/cwm.md)
+
+  * [git](others/git.md)
+  * [maven](others/maven.md)
+  * [solr](others/solr.md)
+
+
+
+
 
 
 
