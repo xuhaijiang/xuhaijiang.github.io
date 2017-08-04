@@ -41,11 +41,11 @@
 
 
 **中文数据库主要有:**
-- 知网 cnki.net
-- 万方 www.wanfangdata.com.cn
-- 维普 lib.cqvip.com
-- 独秀 www.duxiu.com
-- 超星发现 ss.zhizhen.com
+- [知网 cnki.net](http://cnki.net/)
+- [万方 www.wanfangdata.com.cn](http://www.wanfangdata.com.cn/)
+- [维普 lib.cqvip.com](http://lib.cqvip.com/)
+- [独秀 www.duxiu.com](http://www.duxiu.com/)
+- [超星发现 ss.zhizhen.com](http://ss.zhizhen.com/)
 
 - 自然网 www.nature.com 
 - 中国科学院文献情报中心 www.las.ac.cn
