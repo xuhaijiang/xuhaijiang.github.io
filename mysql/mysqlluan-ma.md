@@ -2,7 +2,7 @@
 ##### 解决方法如下:
 
 - 修改字符编码
-            SHOW VARIABLES LIKE 'character_set_%';
+        SHOW VARIABLES LIKE 'character_set_%';
 - 修改数据库成utf8的
     alter database vteam character set utf8;
 - 修改表默认用utf8
