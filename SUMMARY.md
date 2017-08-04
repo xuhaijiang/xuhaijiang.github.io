@@ -26,11 +26,11 @@
   * [7.4 SAP Cloud Platform](sap/sap-cloud-platform.md)
   * [7.5 FAQ](sap/faq.md)
 * [other](sap.md)
-  * [7.1 HANA](sap/hana.md)
-  * [7.2 SAP Mobile Platform](sap/sap-mobile-platform.md)
-  * [7.3 SAP Ui5](sap/sap-ui5.md)
-  * [7.4 SAP Cloud Platform](sap/sap-cloud-platform.md)
-  * [7.5 FAQ](sap/faq.md)
+  * [1 HANA](sap/hana.md)
+  * [2 SAP Mobile Platform](sap/sap-mobile-platform.md)
+  * [3 SAP Ui5](sap/sap-ui5.md)
+  * [4 SAP Cloud Platform](sap/sap-cloud-platform.md)
+  * [5 FAQ](sap/faq.md)
 
 
 
