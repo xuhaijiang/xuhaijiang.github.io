@@ -3,7 +3,7 @@
 [国际视野Google](https://www.google.com/ncr)
 
 ##### 搜索高级命令
-- filetype：搜索PDF或者PPT(注意：要用英文的冒号，前后无空格），搜索不同-- 类型的文件，文本文件、数据库文件等等
+- filetype：搜索PDF或者PPT(注意：要用英文的冒号，前后无空格），搜索不同类型的文件，文本文件、数据库文件等等
 - site：指定在特定的网站进行搜索 site:+网站名称
 - intitle：标题中包含某关键词
 - allintitle:这些关键词必须在标题中全部出现
