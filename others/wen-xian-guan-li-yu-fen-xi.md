@@ -62,8 +62,12 @@
   - 信息储存：快盘
   - 协作平台：ZOHO work online
 
-
-
+#### 知识获取
+- MIT的课件
+- CMU的project
+- Stanford 的公开课
+- Berkeley 的视频
+- leetcode 的讨论区
 
 
 
