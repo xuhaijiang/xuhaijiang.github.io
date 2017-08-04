@@ -36,7 +36,7 @@
 - 图书
 
 **商业数据库:**
-- web of science 权威
+- web of science 权威(http://login.webofknowledge.com/)
 - scopus 面广
 
 
@@ -47,9 +47,9 @@
 - 独秀 www.duxiu.com
 - 超星发现 ss.zhizhen.com
 
-www.nature.com :    自然网
-www.las.ac.cn : 中国科学院文献情报中心
-sciencenet.cn: 科学网
+- 自然网 www.nature.com 
+- 中国科学院文献情报中心 www.las.ac.cn
+- 科学网 sciencenet.cn
 
 RSS信息获取:
 ScienceDirect订阅步骤
