@@ -1,8 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [1 java](java.md)
-  * [1.1 thread](thread.md)
+* [1 java](java/README.md)
+  * [1.1 thread](java/thread/README.md)
     * [1.1.1 concurrent](java/thread/concurrent.md)
 * [2 spring](spring/README.md)
   * [2.1 annotation](spring/annotation.md)
