@@ -25,7 +25,7 @@
 - [超星发现 ss.zhizhen.com](http://ss.zhizhen.com/)
 
 **其他:**
-- [自然网 www.nature.com]()
+- [自然网 www.nature.com](https://www.nature.com/)
 - 中国科学院文献情报中心 www.las.ac.cn
 - 科学网 sciencenet.cn
 
