@@ -12,3 +12,8 @@
      <input type="radio" name="consSex" value="男" />男
      <input type="radio" name="consSex" value="女" />女
     </div>
+
+##### 下拉框
+    $("#driverFlag").change(function(){
+     var flagValue =   $("#driverFlag").find("option:selected").val();
+    });
