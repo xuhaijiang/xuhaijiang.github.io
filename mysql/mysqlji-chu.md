@@ -24,7 +24,7 @@
     Delete FROM mysql.user Where User='onecard' and Host='localhost';
     
     
-#### 查询重复的数据
+##### 查询重复的数据
 
     //模版
     select 字段1,字段2, count(*) from 表名 group by 字段1,字段2 having count(*) > 1
@@ -33,3 +33,8 @@
     Select owner from dba_tables group by owner having count(*)>1;
     //查询出没有重复的数据
     Select owner from dba_tables group by owner having count(*)=1;
+
+##### 删除重复的数据
+
+    //效率低，不适合大数据量
+    delete from 表名 a where 字段1,字段2 in (select 字段1,字段2,count(*) from 表名 group by 字段1,字段2 having count(*) > 1) 
