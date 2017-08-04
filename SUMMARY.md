@@ -13,6 +13,7 @@
 * [5 node](node.md)
   * [5.1 CommonJS](node/commonjs.md)
   * [5.2 JS Lib](node/js-lib.md)
+  * [Jquery](node/jquery.md)
 * [6 tomcat](tomcat.md)
   * [6.1 SSL证书](tomcat/sslzheng-shu.md)
   * [6.2 Tomcat配置](tomcat/tomcatpei-zhi.md)
