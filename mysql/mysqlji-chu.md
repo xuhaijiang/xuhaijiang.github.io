@@ -1,15 +1,15 @@
 ##### 登入root用户
     mysql -uroot -p
  
-建库
-create database tour;
-alter database tour character set utf8;
+##### 建库
+    create database tour;
+    alter database tour character set utf8;
  
-登入数据库
-use tour;
+##### 登入数据库
+    use tour;
  
-建用户 (%表示登陆者可以是任意ip)
-CREATE USER 'dwz_spring'@'%' IDENTIFIED BY 'dwz_spring';
+##### 建用户 (%表示登陆者可以是任意ip)
+    CREATE USER 'dwz_spring'@'%' IDENTIFIED BY 'dwz_spring';
  
 授权
 grant all privileges on dwz_springmvc.* to 'dwz_spring'@'%' identified by 'dwz_spring';
