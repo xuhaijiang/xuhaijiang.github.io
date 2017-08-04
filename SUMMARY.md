@@ -23,4 +23,5 @@
   * [7.3 maven](others/maven.md)
   * [7.4 git](others/git.md)
   * [7.5 cwm](others/cwm.md)
+  * [文献管理与分析](others/wen-xian-guan-li-yu-fen-xi.md)
 
