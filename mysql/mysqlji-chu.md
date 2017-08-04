@@ -44,6 +44,7 @@
 **方法2：**
 先将查询到的重复的数据插入到一个临时表中，然后再进行删除
 
+    //建临时表
     CREATE TABLE 临时表 AS 
     ( 
         select 字段1,字段2, count(*) as row_num 
@@ -52,7 +53,7 @@
         having count(*) > 1 
     );
     
-    
+    //删除重复数据
     delete from 表名 a where 字段1,字段2 in (select 字段1，字段2 from 临时表);
 
 
