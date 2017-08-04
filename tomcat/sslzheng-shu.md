@@ -7,7 +7,7 @@
 3. 生成客户端证书
         keytool -genkey -v -alias client -keyalg RSA -keystore D:/ssl/client.keystore -dname "CN=client,OU=xhj,O=xhj,L=hangzhou,ST=Zhejiang,C=CN" -validity 3650 -storepass 123456 -keypass 123456
 4. 导出客户端证书
-keytool -export -alias client -keystore D:/ssl/client.keystore -storepass 123456 -rfc -file D:/ssl/client.cer
+        keytool -export -alias client -keystore D:/ssl/client.keystore -storepass 123456 -rfc -file D:/ssl/client.cer
 5. 把客户端证书加入服务端证书信任列表
 keytool -import -file D:/ssl/client.cer -storepass 123456 -keystore D:/ssl/tomcat.truststore -alias client
 6. 生成客户端信任列表 （客户端信任的服务端）
