@@ -3,7 +3,11 @@
 2. 专著，教材
 3. 专家
 
-
+#### 如何获得重要文献
+- 网站检索（WOK,Scopus）
+- 文献管理软件: endnote
+- 文本分析工具:  refviz,omniviz
+- 引文分析工具: histcite,citesspace
 
 #### 文资源来源
 
@@ -44,11 +48,7 @@
 
 
 
-如何获得重要文献：
-网站检索（WOK,Scopus）
-文献管理软件: endnote
-文本分析工具:  refviz,omniviz
-引文分析工具: histcite,citesspace 
+ 
 
 创意激发：
 triz
