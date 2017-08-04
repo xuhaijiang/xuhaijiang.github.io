@@ -35,6 +35,33 @@
     Select owner from dba_tables group by owner having count(*)=1;
 
 ##### 删除重复的数据
+**方法1：**
 
     //效率低，不适合大数据量
     delete from 表名 a where 字段1,字段2 in (select 字段1,字段2,count(*) from 表名 group by 字段1,字段2 having count(*) > 1) 
+
+**方法2：**
+
+
+
+
+
+
+
+
+
+
+
+####
+
+
+
+
+
+
+
+
+
+
+
+    
