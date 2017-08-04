@@ -26,11 +26,11 @@
 
 ##### tomcat配置
 **server.xml文件：**
-<Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
+`<Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
    SSLEnabled="true" maxThreads="150" scheme="https"
    secure="true" clientAuth="true" sslProtocol="TLS"
    keystoreFile="D:\\ssl\\tomcat.keystore" keystorePass="123456"
-   truststoreFile="D:\\ssl\\tomcat.truststore" truststorePass="123456" truststoreType="JKS"/>
+   truststoreFile="D:\\ssl\\tomcat.truststore" truststorePass="123456" truststoreType="JKS"/>`
 
 
 
