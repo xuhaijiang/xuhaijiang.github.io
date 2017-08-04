@@ -26,8 +26,8 @@
 
 **其他:**
 - [自然网 www.nature.com](https://www.nature.com/)
-- 中国科学院文献情报中心 www.las.ac.cn
-- 科学网 sciencenet.cn
+- [中国科学院文献情报中心 www.las.ac.cn](http://www.las.ac.cn/)
+- [科学网 sciencenet.cn](http://sciencenet.cn/)
 
 RSS信息获取:
 ScienceDirect订阅步骤
