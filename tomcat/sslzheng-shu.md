@@ -25,11 +25,12 @@
         keytool -genkey -alias test -keyalg RSA -keypass 123456 -storepass 123456 -dname "CN=client,OU=xhj,O=xhj,L=hangzhou,ST=Zhejiang,C=CN" -validity 3650 -keystore D:/ssl/uac.jks
 
 ##### tomcat配置 server.xml
-        <Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
-           SSLEnabled="true" maxThreads="150" scheme="https"
-           secure="true" clientAuth="true" sslProtocol="TLS"
-           keystoreFile="D:\\ssl\\tomcat.keystore" keystorePass="123456"
-           truststoreFile="D:\\ssl\\tomcat.truststore" truststorePass="123456" truststoreType="JKS"/>
+
+<Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
+   SSLEnabled="true" maxThreads="150" scheme="https"
+   secure="true" clientAuth="true" sslProtocol="TLS"
+   keystoreFile="D:\\ssl\\tomcat.keystore" keystorePass="123456"
+   truststoreFile="D:\\ssl\\tomcat.truststore" truststorePass="123456" truststoreType="JKS"/>
 
 
 
