@@ -10,4 +10,35 @@
 这些方法返回的都是ExecutorService对象，这个对象可以理解为就是一个线程池。
 这个线程池的功能还是比较完善的。可以提交任务submit()可以结束线程池shutdown()
 
+**示例1**
 
+    import java.util.concurrent.ExecutorService;
+    import java.util.concurrent.Executors;
+
+    public class MyExecutor extends Thread {
+	private int index;
+
+	public MyExecutor(int i) {
+		this.index = i;
+	}
+
+	public void run() {
+		try {
+			System.out.println("[" + this.index + "] start....");
+			Thread.sleep((int) (Math.random() * 1000));
+			System.out.println("[" + this.index + "] end.");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void main(String[] args) {
+		ExecutorService service = Executors.newFixedThreadPool(4);
+		for (int i = 0; i < 10; i++) {
+			service.execute(new MyExecutor(i));
+			// service.submit(new MyExecutor(i));
+		}
+		System.out.println("submit finish");
+		service.shutdown();
+	}
+}
