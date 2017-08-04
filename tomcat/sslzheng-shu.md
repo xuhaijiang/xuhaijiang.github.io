@@ -1,5 +1,5 @@
 #### SSL证书用java keytool生成
-#### 服务端
+##### 服务端
 1. 生成服务端证书
         keytool -genkey -v -alias tomcat -keyalg RSA -keystore D:/ssl/tomcat.keystore -dname "CN=localhost,OU=xhj,O=xhj,L=hangzhou,ST=Zhejiang,C=CN" -validity 3650 -storepass 123456 -keypass 123456
 2. 导出服务端证书
