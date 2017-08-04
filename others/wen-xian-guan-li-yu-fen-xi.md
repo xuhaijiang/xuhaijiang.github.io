@@ -8,6 +8,20 @@
 - 文献管理软件: endnote
 - 文本分析工具:  refviz,omniviz
 - 引文分析工具: histcite,citesspace
+- 创意激发: triz
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### 文资源来源
 
@@ -44,14 +58,6 @@
 - [sciencedirect](http://www.sciencedirect.com/)
 - [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/)
 - [springer](https://link.springer.com/)
-
-
-
-
- 
-
-创意激发：
-triz
 
 
 
