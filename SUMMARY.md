@@ -23,7 +23,7 @@
   * [7.3 maven](others/maven.md)
   * [7.4 git](others/git.md)
   * [7.5 cwm](others/cwm.md)
-  * [7.6高级搜索](others/gao-ji-sou-suo.md)
-  * [7.8文献管理与分析](others/wen-xian-guan-li-yu-fen-xi.md)
+  * [7.6 高级搜索](others/gao-ji-sou-suo.md)
+  * [7.8 文献管理与分析](others/wen-xian-guan-li-yu-fen-xi.md)
   
 
