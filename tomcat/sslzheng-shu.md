@@ -9,7 +9,7 @@
 4. 导出客户端证书
         keytool -export -alias client -keystore D:/ssl/client.keystore -storepass 123456 -rfc -file D:/ssl/client.cer
 5. 把客户端证书加入服务端证书信任列表
-keytool -import -file D:/ssl/client.cer -storepass 123456 -keystore D:/ssl/tomcat.truststore -alias client
+        keytool -import -file D:/ssl/client.cer -storepass 123456 -keystore D:/ssl/tomcat.truststore -alias client
 6. 生成客户端信任列表 （客户端信任的服务端）
 keytool -import -file D:/ssl/tomcat.cer -storepass 123456 -keystore D:/ssl/client.truststore -alias tomcat
 1.浏览器证书（已可正常访问）
