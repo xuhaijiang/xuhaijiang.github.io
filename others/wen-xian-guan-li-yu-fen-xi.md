@@ -24,7 +24,8 @@
 - [独秀 www.duxiu.com](http://www.duxiu.com/)
 - [超星发现 ss.zhizhen.com](http://ss.zhizhen.com/)
 
-- 自然网 www.nature.com 
+**其他:**
+- [自然网 www.nature.com]()
 - 中国科学院文献情报中心 www.las.ac.cn
 - 科学网 sciencenet.cn
 
@@ -46,8 +47,6 @@ springerlink 订阅步骤
 1.登陆网站：http//www.springerlink.com
 2.search
 3.点击“图标”订阅
-
-《学习之道》
 
 如何快速了解一个领域：
 综述 
