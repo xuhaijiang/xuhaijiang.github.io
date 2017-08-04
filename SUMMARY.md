@@ -23,12 +23,4 @@
   * [7.3 SAP Ui5](sap/sap-ui5.md)
   * [7.4 SAP Cloud Platform](sap/sap-cloud-platform.md)
   * [7.5 FAQ](sap/faq.md)
-* [others](others.md)
-  * [cloud](others/cloud.md)
-  * [solr](others/solr.md)
-  * [maven](others/maven.md)
-  * [git](others/git.md)
-  * [cwm](others/cwm.md)
-  * [高级搜索](others/gao-ji-sou-suo.md)
-  * [文献管理与分析](others/wen-xian-guan-li-yu-fen-xi.md)
 
