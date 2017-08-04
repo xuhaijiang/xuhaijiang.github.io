@@ -30,7 +30,6 @@
   * [进阶学习论](others/resource.md)
   * [cloud](others/cloud.md)
   * [cwm](others/cwm.md)
-
   * [git](others/git.md)
   * [maven](others/maven.md)
   * [solr](others/solr.md)
