@@ -11,8 +11,8 @@
 ##### 建用户 (%表示登陆者可以是任意ip)
     CREATE USER 'dwz_spring'@'%' IDENTIFIED BY 'dwz_spring';
  
-授权
-grant all privileges on dwz_springmvc.* to 'dwz_spring'@'%' identified by 'dwz_spring';
+##### 授权
+    grant all privileges on dwz_springmvc.* to 'dwz_spring'@'%' identified by 'dwz_spring';
  
 导出
 mysqldump -u root -p afternine > G:\微电商\A9\test.sql
