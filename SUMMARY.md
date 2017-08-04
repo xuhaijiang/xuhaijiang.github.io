@@ -25,7 +25,7 @@
   * [7.3 SAP Ui5](sap/sap-ui5.md)
   * [7.4 SAP Cloud Platform](sap/sap-cloud-platform.md)
   * [7.5 FAQ](sap/faq.md)
-* [others](sap.md)
+* [others](others/README.md)
   * [高级搜索](others/gao-ji-sou-suo.md)
   * [进阶学习论](others/resource.md)
   * [cloud](others/cloud.md)
