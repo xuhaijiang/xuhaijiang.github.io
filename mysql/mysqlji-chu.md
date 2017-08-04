@@ -51,6 +51,9 @@
         group by 字段1,字段2 
         having count(*) > 1 
     );
+    
+    
+    delete from 表名 a where 字段1,字段2 in (select 字段1，字段2 from 临时表);
 
 
 
