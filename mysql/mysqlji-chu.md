@@ -26,6 +26,7 @@
     
 #### 查询重复的数据
 
+    //模版
     select 字段1,字段2, count(*) from 表名 group by 字段1,字段2 having count(*) > 1
     
     //查询重复的数据
