@@ -5,7 +5,7 @@
   * [1.1 thread](java/thread/README.md)
     * [1.1.1 Executor](java/thread/executor.md)
     * [1.1.2 Semaphore](java/thread/semaphore.md)
-    * ReentrantLock
+    * [1.1.3 ReentrantLock](java/thread/reentrantlock.md)
 * [2 spring](spring/README.md)
   * [2.1 annotation](spring/annotation.md)
 * [3 linux](linux/README.md)
