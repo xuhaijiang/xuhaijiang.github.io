@@ -10,5 +10,5 @@
 - [CompletionService](java/thread/CompletionService.md) ExecutorService的扩展，可以获得线程执行结果的
 - [CountDownLatch](java/thread/CountDownLatch.md) 一个同步辅助类，在完成一组正在其他线程中执行的操作之前，它允许一个或多个线程一直等待。 
 - [CyclicBarrier](java/thread/CyclicBarrier.md) 一个同步辅助类，它允许一组线程互相等待，直到到达某个公共屏障点 
-- [Future](java/thread/Future.md) Future 表示异步计算的结果。
+- [Future](java/thread/Future.md) 表示异步计算的结果。
 - [ScheduledExecutorService](java/thread/ScheduledExecutorService.md) 一个 ExecutorService，可安排在给定的延迟后运行或定期执行的命令。
