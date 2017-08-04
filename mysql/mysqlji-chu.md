@@ -21,4 +21,4 @@
     mysql -u root -p onecard < C:\test.sql
 
 ##### 删除用户
-    Delete FROM mysql.user Where User='swifi ' and Host='localhost';
+    Delete FROM mysql.user Where User='onecard' and Host='localhost';
