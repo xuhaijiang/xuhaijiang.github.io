@@ -1,4 +1,11 @@
-#### 文献资源来源
+#### 如何快速了解一个领域
+1. 综述 
+2. 专著，教材
+3. 专家
+
+
+
+#### 文资源来源
 
 **科研文献来源:**
 - 专利
@@ -29,29 +36,13 @@
 - [中国科学院文献情报中心 www.las.ac.cn](http://www.las.ac.cn/)
 - [科学网 sciencenet.cn](http://sciencenet.cn/)
 
-RSS信息获取:
-ScienceDirect订阅步骤
-1. 登陆http://www.sciencedirect.com
-2. search
-3. RSS Feed
-4. 给订阅命名
-5. 点击或拷贝RSS地址订阅
+**RSS源:**
+- [sciencedirect](http://www.sciencedirect.com/)
+- [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/)
+- [springer](https://link.springer.com/)
 
-PubMed订阅步骤
-1. 登陆http://www.pubmed.com
-2. search
-3. create RSS
-4. 订阅
 
-springerlink 订阅步骤
-1.登陆网站：http//www.springerlink.com
-2.search
-3.点击“图标”订阅
 
-如何快速了解一个领域：
-综述 
-专著，教材
-专家
 
 如何获得重要文献：
 网站检索（WOK,Scopus）
