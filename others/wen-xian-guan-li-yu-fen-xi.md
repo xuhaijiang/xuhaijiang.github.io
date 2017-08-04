@@ -55,7 +55,7 @@
   - 知识管理软件：WIZ， Evernote, 有道云笔记
   - 文件的管理软件：Total Commander
 3. 信息分析
-  - 引文分析软件：HistCite(可以选出某领域的核心文章, Citation map和引文图谱将文章间的关系表示出来）， RefViz, CiteSpace, OmniViz（某领域的方向和热点）
+  - 引文分析软件：HistCite(可以选出某领域的核心文章, Citation map和引文图谱将文章间的关系表示出来),RefViz, CiteSpace, OmniViz（某领域的方向和热点）
 4. 分享协作，创新
 分享会让自己成为专家，会树立个人品牌
   - 展现思路：THE BRAIN 7（思维导图） 
