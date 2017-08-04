@@ -10,4 +10,5 @@
 - 修改字段用utf8
         alter table type modify type_name varchar(50) CHARACTER SET utf8;
 
-create database name character set utf8;
+#### 新建数据库时指定
+        create database name character set utf8;
