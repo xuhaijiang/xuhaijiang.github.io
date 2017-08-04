@@ -15,10 +15,10 @@
     grant all privileges on onecard.* to 'onecard'@'%' identified by 'onecard';
  
 ##### 导出
-    mysqldump -u root -p afternine > C:\test.sql
+    mysqldump -u root -p onecard > C:\test.sql
  
 ##### 导入(需使用root用户)
-    mysql -u root -p swifi < C:\test.sql
+    mysql -u root -p onecard < C:\test.sql
 
 ##### 删除用户
     Delete FROM mysql.user Where User='swifi ' and Host='localhost';
