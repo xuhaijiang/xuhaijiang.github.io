@@ -4,6 +4,7 @@
 * [1 java](java/README.md)
   * [1.1 thread](java/thread/README.md)
     * [1.1.1 Executor](java/thread/executor.md)
+    * [1.1.2 Semaphore](java/thread/semaphore.md)
 * [2 spring](spring/README.md)
   * [2.1 annotation](spring/annotation.md)
 * [3 linux](linux/README.md)
@@ -33,10 +34,4 @@
   * [git](others/git.md)
   * [maven](others/maven.md)
   * [solr](others/solr.md)
-
-
-
-
-
-
 

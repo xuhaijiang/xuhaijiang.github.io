@@ -33,6 +33,7 @@
 	}
 
 	public static void main(String[] args) {
+	    //只能执行4个线程
 		ExecutorService service = Executors.newFixedThreadPool(4);
 		for (int i = 0; i < 10; i++) {
 			service.execute(new MyExecutor(i));
