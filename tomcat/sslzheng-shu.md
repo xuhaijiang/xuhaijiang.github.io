@@ -11,7 +11,7 @@
 5. 把客户端证书加入服务端证书信任列表
         keytool -import -file D:/ssl/client.cer -storepass 123456 -keystore D:/ssl/tomcat.truststore -alias client
 6. 生成客户端信任列表 （客户端信任的服务端）
-keytool -import -file D:/ssl/tomcat.cer -storepass 123456 -keystore D:/ssl/client.truststore -alias tomcat
+        keytool -import -file D:/ssl/tomcat.cer -storepass 123456 -keystore D:/ssl/client.truststore -alias tomcat
 1.浏览器证书（已可正常访问）
 keytool -validity 365 -genkeypair -v -alias browser -keyalg RSA -storetype PKCS12 -keystore D:/ssl/browser.p12 -dname "CN=browser,OU=xhj,O=xhj,L=hangzhou,ST=Zhejiang,c=cn" -storepass 123456 -keypass 123456
 2、从客户端证书库中导出客户端证书
