@@ -14,15 +14,15 @@
         keytool -import -file D:/ssl/tomcat.cer -storepass 123456 -keystore D:/ssl/client.truststore -alias tomcat
 
 ##### 浏览器
-1.浏览器证书（已可正常访问）
-keytool -validity 365 -genkeypair -v -alias browser -keyalg RSA -storetype PKCS12 -keystore D:/ssl/browser.p12 -dname "CN=browser,OU=xhj,O=xhj,L=hangzhou,ST=Zhejiang,c=cn" -storepass 123456 -keypass 123456
-2、从客户端证书库中导出客户端证书
-keytool -export -v -alias browser -keystore D:/ssl/browser.p12 -storetype PKCS12 -storepass 123456 -rfc -file D:/ssl/browser.cer
-3、将客户端证书导入到服务器证书库(使得服务器信任客户端证书)
-keytool -import -v -alias browser -file D:/ssl/browser.cer -keystore D:/ssl/tomcat.truststore -storepass 123456
-keytool -list -keystore D:/ssl/tomcat.truststore -storepass 123456
-生成jks文件
-keytool -genkey -alias test -keyalg RSA -keypass 123456 -storepass 123456 -dname "CN=client,OU=xhj,O=xhj,L=hangzhou,ST=Zhejiang,C=CN" -validity 3650 -keystore D:/ssl/uac.jks
+1. 浏览器证书（已可正常访问）
+        keytool -validity 365 -genkeypair -v -alias browser -keyalg RSA -storetype PKCS12 -keystore D:/ssl/browser.p12 -dname "CN=browser,OU=xhj,O=xhj,L=hangzhou,ST=Zhejiang,c=cn" -storepass 123456 -keypass 123456
+2. 从客户端证书库中导出客户端证书
+        keytool -export -v -alias browser -keystore D:/ssl/browser.p12 -storetype PKCS12 -storepass 123456 -rfc -file D:/ssl/browser.cer
+3. 将客户端证书导入到服务器证书库(使得服务器信任客户端证书)
+        keytool -import -v -alias browser -file D:/ssl/browser.cer -keystore D:/ssl/tomcat.truststore -storepass 123456
+        keytool -list -keystore D:/ssl/tomcat.truststore -storepass 123456
+4. 生成jks文件
+        keytool -genkey -alias test -keyalg RSA -keypass 123456 -storepass 123456 -dname "CN=client,OU=xhj,O=xhj,L=hangzhou,ST=Zhejiang,C=CN" -validity 3650 -keystore D:/ssl/uac.jks
 
 
 
