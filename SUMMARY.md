@@ -7,7 +7,7 @@
 * [3 linux](linux.md)
   * [3.1 linux](linux/linux.md)
 * [4 mysql](mysql.md)
-  * [4.1mysql基础](mysql/mysqlji-chu.md)
+  * [4.1 mysql基础](mysql/mysqlji-chu.md)
   * [4.2 全文索引](mysql/full-text.md)
   * [4.3 mysql乱码](mysql/mysqlluan-ma.md)
 * [5 node](node.md)
