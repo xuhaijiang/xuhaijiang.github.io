@@ -8,6 +8,7 @@
         public void m() {
             lock.lock();
             try {
+                // ... method body
             } finally {
                 lock.unlock();
             }
