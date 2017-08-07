@@ -59,7 +59,7 @@
 	- 注解来源：@Autowired是Spring的注解，@Resource是J2EE的注解
 
 
-例子：
+示例：
 
 	@Service
 	public class World
