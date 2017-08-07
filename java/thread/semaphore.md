@@ -9,6 +9,8 @@ Semaphore 通常用于限制可以访问某些资源（物理或逻辑的）的�
 | void | acquire() |从此信号量获取一个许可,在提供一个许可前一直将线程阻塞，否则线程被中断 |
 | int | availablePermits() | 返回此信号量中当前可用的许可数 |
 | void | release() | 释放一个许可,将其返回给信号量 |
+| boolean | tryAcquire() | 释放一个许可,将其返回给信号量 |
+
 
 
 **示例**
