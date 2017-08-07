@@ -11,7 +11,7 @@ Semaphore 通常用于限制可以访问某些资源（物理或逻辑的）的�
 | void | release() | 释放一个许可,将其返回给信号量 |
 | boolean | tryAcquire() | 仅在调用时此信号量存在一个可用许可,才从信号量获取许可 |
 
-**示例**
+#### 示例
 _说明：大家排队上厕所，厕所只有两个位置，来了10个人需要排队_
 
     import java.util.concurrent.ExecutorService;
