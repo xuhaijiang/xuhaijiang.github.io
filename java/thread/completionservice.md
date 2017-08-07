@@ -1,6 +1,13 @@
 #### CompletionService 异步任务的服务
+CompletionService实现了生产者提交任务和消费者获取结果的解耦，生产者和消费者都不用关心任务的完成顺序，由CompletionService来保证，消费者一定是按照任务完成的先后顺序来获取执行结果。
 
+#### API
 
+| 返回 | 方法 | 说明 |
+|---|:---:|:---|
+| Future<V> | submit(Callable<V> task) | 提交任务，并获取任务执行结果的句柄。 |
+| Future<V> | take() | 获取并移除第一个执行完成的任务，阻塞，直到有任务返回。 |
+| Future<V> | poll() | 同步操作，获取并移除第一已经完成的任务，否则返回null。 |
 
 
 
