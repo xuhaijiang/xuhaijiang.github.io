@@ -117,7 +117,6 @@ CompletionService可实现生产者提交任务和消费者获取结果的解耦
 ##### CompletionService：Executor + BlockingQueue 
 最先执行完成的直接返回，并不需要按任务提交的顺序执行
 
-
 ##### ExecutorService.invokeAll
 ExecutorService的invokeAll方法也能批量执行任务，并批量返回结果，但是呢，有个缺点，必须等待所有的任务执行完成后统一返回。
 
