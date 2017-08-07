@@ -10,3 +10,13 @@
 - [CountDownLatch](countDownLatch.md) 一个同步辅助类，在完成一组正在其他线程中执行的操作之前，它允许一个或多个线程一直等待。 
 - [CyclicBarrier](cyclicBarrier.md) 一个同步辅助类，它允许一组线程互相等待，直到到达某个公共屏障点 
 - [ScheduledExecutorService](scheduledExecutorService.md) 一个 ExecutorService，可安排在给定的延迟后运行或定期执行的命令。
+
+
+#### CAS
+Compare and Swap (比较并交换),设计并发算法时的一种技术。
+##### CAS有三个操作数
+- 内存值V
+- 旧的预期值A
+- 要修改的值B
+
+当且仅当预期值A和内存值V相同时，将内存值修改为B并返回true，否则什么都不做并返回false。
