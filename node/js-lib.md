@@ -26,10 +26,10 @@ web开发框架
 用JavaScript转换CSS的工具
 
 ##### [autoprefixer](https://github.com/postcss/autoprefixer)
-Google推荐的PostCSS plugin，用来解析CSS,设置CSS前缀规则
+Google推荐的PostCSS plugin，用来解析CSS，设置CSS前缀规则
 
 ##### [babel](https://babeljs.io/)
-一个JavaScript编译器,可以作为 ES6 转码器，可以将 ES6 代码转为 ES5 代码。
+一个JavaScript编译器，可以作为 ES6 转码器，可以将 ES6 代码转为 ES5 代码。
 **示例：**
 ```
     // 转码前
