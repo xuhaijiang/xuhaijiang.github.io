@@ -15,6 +15,9 @@
 JAVA对硬件级别的原子操作,为CAS技术提供支持。
 Unsafe类的使用都是受限制的，只有授信的代码才能获得该类的实例，当然JDK库里面的类是可以随意使用的。
 
+![](../image/unsafe.png)
+
+
 #### CAS
 Compare and Swap (比较并交换),设计并发算法时的一种技术。
 
@@ -29,6 +32,7 @@ Compare and Swap (比较并交换),设计并发算法时的一种技术。
         for (;;) {
             int current = get();
             int next = current + delta;
+            // unsafe 支持
             if (compareAndSet(current, next))
                 return next;
         }
