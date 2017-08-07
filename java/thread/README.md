@@ -35,8 +35,7 @@ Compare and Swap (比较并交换),设计并发算法时的一种技术。
     private volatile long value;
     
     public final int addAndGet(long delta) {
-        // 此循环作用: value并进行compareAndSet，直至获取的value和内存中的value一致为止
-
+        // 此循环作用: 保证获取的value和内存中的value一致为止
         for (;;) {
             int current = get();
             int next = current + delta;
