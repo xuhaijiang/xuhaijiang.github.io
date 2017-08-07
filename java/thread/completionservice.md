@@ -54,7 +54,6 @@ CompletionService可实现生产者提交任务和消费者获取结果的解耦
 			return this.id + ":" + time;
 		}
 	
-		// 无序执行
 		public static List<Future<String>> syn() {
 			try {
 				ExecutorService exec = Executors.newCachedThreadPool();
@@ -74,7 +73,6 @@ CompletionService可实现生产者提交任务和消费者获取结果的解耦
 			}
 		}
 	
-		// 按创建顺序有序执行
 		public static List<Future<String>> aSyn() {
 	
 			StringBuffer results = new StringBuffer();
@@ -114,3 +112,7 @@ CompletionService可实现生产者提交任务和消费者获取结果的解耦
 			}
 		}
 	}
+
+#### 注意
+##### CompletionService：Executor + BlockingQueue 
+最先执行完成的直接返回，并不需要按任务提交的顺序执行
