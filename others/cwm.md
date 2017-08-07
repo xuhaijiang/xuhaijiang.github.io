@@ -15,9 +15,9 @@ SQL99标准，例如关系数据库的表、列、触发器、过程
 
 ##### CWM元素关系理解
 1. 数据层（M0）：学生记录（Record）的实例，即具体的某个学生
-2. 模型层（M1）：描述学生这个记录类型的内容，它有一个名字（“Student”）和两个字段（Field）,每个字段都有一个名字和类型，比如第一个字段的名字的“name”，字段类型是String
+2. 模型层（M1）：描述学生这个记录类型的内容，它有一个名字（“Student”）和两个字段（Field），每个字段都有一个名字和类型，比如第一个字段的名字的“name”，字段类型是String
 3. 元模型层（M2）：对Record这种类型进行定义，Record是元类metaClass的一个实例，一个Record拥有两个元属性metaAttribute，第一个name定义它的名字，是String类型，第二个fields定义它包含的字段集，字段集中的成员是Field类型。类似的，元类field应该也包含两个元属性：名字name和类型type
-4. 元元模型层（M3）：结构基本固定，它将所有概念抽象为组件：元类meta-Class、元属性meta-Attribute、元关联meta-Association,并定义了元类之间的关系，包括：包含（Contains），继承（Generalizes），类型引用（IsOfType）和依赖（DenpendsOn）
+4. 元元模型层（M3）：结构基本固定，它将所有概念抽象为组件：元类meta-Class、元属性meta-Attribute、元关联meta-Association，并定义了元类之间的关系，包括：包含（Contains），继承（Generalizes），类型引用（IsOfType）和依赖（DenpendsOn）
 
 ##### 基于模型的元数据集成体系组件集
 1. **能以共享的、与平台无关的模型方式定义元数据的形式化语言**
@@ -83,7 +83,7 @@ JDBC 元数据提取相关，不支持触发器的提取
 
 **ResultSetMetadata** 获取关于 ResultSet 对象中列的类型和属性信息的对象
 
-获得方式 :
+获得方式：
 
 	//获取此 ResultSet 对象的列的编号、类型和属性
 	ResultSetMetadata rsmd = rs.getMetaData();
