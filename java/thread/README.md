@@ -11,6 +11,10 @@
 - [CyclicBarrier](cyclicBarrier.md) 一个同步辅助类，它允许一组线程互相等待，直到到达某个公共屏障点 
 - [ScheduledExecutorService](scheduledExecutorService.md) 一个 ExecutorService，可安排在给定的延迟后运行或定期执行的命令。
 
+
+#### AQS
+AQS是JDK1.5提供的一个基于FIFO等待队列实现的一个用于实现同步器的基础框架，这个基础框架的重要性可以这么说，JCU包里面几乎所有的有关锁、多线程并发以及线程同步器等重要组件的实现都是基于AQS这个框架。AQS的核心思想是基于volatile int state这样的一个属性同时配合Unsafe工具对其原子性的操作来实现对当前锁的状态进行修改。当state的值为0的时候，标识改Lock不被任何线程所占有。
+
 #### Unsafe
 JAVA对硬件级别的原子操作,为CAS技术提供支持。
 Unsafe类的使用都是受限制的，只有授信的代码才能获得该类的实例，当然JDK库里面的类是可以随意使用的。
@@ -44,3 +48,4 @@ Compare and Swap (比较并交换),设计并发算法时的一种技术。
                 return next;
         }
     }
+
