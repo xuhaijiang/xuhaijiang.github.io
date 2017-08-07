@@ -1,4 +1,4 @@
-#### CompletionService 异步任务的服务
+#### CompletionService 批量执行任务的服务
 CompletionService接口提供了可以操作异步任务的功能，其唯一实现的API为ExecutorCompletionService。
 
 CompletionService可实现生产者提交任务和消费者获取结果的解耦，生产者和消费者都不用关心任务的完成顺序，由CompletionService来保证，消费者一定是按照任务完成的先后顺序来获取执行结果。
@@ -116,3 +116,9 @@ CompletionService可实现生产者提交任务和消费者获取结果的解耦
 #### 注意
 ##### CompletionService：Executor + BlockingQueue 
 最先执行完成的直接返回，并不需要按任务提交的顺序执行
+
+
+##### ExecutorService.invokeAll
+ExecutorService的invokeAll方法也能批量执行任务，并批量返回结果，但是呢，有个缺点，必须等待所有的任务执行完成后统一返回。
+
+
