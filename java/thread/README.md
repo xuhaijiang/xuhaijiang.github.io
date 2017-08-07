@@ -29,6 +29,8 @@ Compare and Swap (比较并交换),设计并发算法时的一种技术。
 
 **关系：** 当且仅当预期值A和内存值V相同时，将内存值修改为B并返回true，否则什么都不做并返回false。
 
+**AtomicLong.java**代码分析
+
     public final int addAndGet(long delta) {
         for (;;) {
             int current = get();
