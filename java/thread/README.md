@@ -12,8 +12,9 @@
 - [ScheduledExecutorService](scheduledExecutorService.md) 一个 ExecutorService，可安排在给定的延迟后运行或定期执行的命令。
 
 #### Unsafe
-它提供了硬件级别的原子操作。
+JAVA对硬件级别的原子操作,为CAS技术提供支持。
 Unsafe类的使用都是受限制的，只有授信的代码才能获得该类的实例，当然JDK库里面的类是可以随意使用的。
+
 
 #### CAS
 Compare and Swap (比较并交换),设计并发算法时的一种技术。
