@@ -51,7 +51,7 @@ Google推荐的PostCSS plugin，用来解析CSS，设置CSS前缀规则
 语义化的版本控制
 
 ##### [node-open](https://github.com/pwnall/node-open)
-打开文件或网址,可跨平台
+打开文件或网址，可跨平台
 **示例：**
 ```
     var open = require("open");
