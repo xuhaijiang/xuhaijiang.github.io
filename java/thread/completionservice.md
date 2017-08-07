@@ -1,5 +1,7 @@
 #### CompletionService 异步任务的服务
-CompletionService实现了生产者提交任务和消费者获取结果的解耦，生产者和消费者都不用关心任务的完成顺序，由CompletionService来保证，消费者一定是按照任务完成的先后顺序来获取执行结果。
+CompletionService接口提供了可以操作异步任务的功能，其唯一实现的API为ExecutorCompletionService。
+
+CompletionService可实现生产者提交任务和消费者获取结果的解耦，生产者和消费者都不用关心任务的完成顺序，由CompletionService来保证，消费者一定是按照任务完成的先后顺序来获取执行结果。
 
 #### API
 
