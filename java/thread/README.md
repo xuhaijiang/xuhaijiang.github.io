@@ -15,7 +15,7 @@
 JAVA对硬件级别的原子操作,为CAS技术提供支持。
 Unsafe类的使用都是受限制的，只有授信的代码才能获得该类的实例，当然JDK库里面的类是可以随意使用的。
 
-![](../image/unsafe.png)
+![](.../image/unsafe.png)
 
 
 #### CAS
