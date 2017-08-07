@@ -18,6 +18,7 @@ AQS是JDK1.5提供的一个基于FIFO等待队列实现的一个用于实现同�
 
 AQS的核心思想是基于volatile int state这样的一个属性同时配合Unsafe工具对其原子性的操作来实现对当前锁的状态进行修改。当state的值为0的时候，标识改Lock不被任何线程所占有。
 ![](/image/thread/AbstractQueuedSynchronizer.png)
+
 #### Unsafe
 JAVA对硬件级别的原子操作,为CAS技术提供支持。
 Unsafe类的使用都是受限制的，只有授信的代码才能获得该类的实例，当然JDK库里面的类是可以随意使用的。
