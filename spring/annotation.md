@@ -10,7 +10,7 @@
 - @Autowired自动装配
 - @Qualifier配合@Autowired指定唯一bean
 - `@Qualifier("Chinese")`：括号里面为实现类的类名
-- `@Autowired(required = false)`:false Spring容器bean未定义不抛出异常
+- `@Autowired(required = false)`：false Spring容器bean未定义不抛出异常
 
 例子：
 	
