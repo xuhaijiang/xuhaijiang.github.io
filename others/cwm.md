@@ -74,7 +74,7 @@ JDBC 元数据提取相关，不支持触发器的提取
 
 **DatabaseMetaData** 数据库的整理综合信息
 
-获得方式
+##### 获得方式
 
 	//返回所连接的数据库的元数据 
 	DatabaseMetaData dmd = conn.getMetaData();
