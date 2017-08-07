@@ -91,7 +91,7 @@ CompletionService可实现生产者提交任务和消费者获取结果的解耦
 				for (int i = 0; i < 10; i++) {
 					// 创建任务
 					completionService.submit(new MyCompletionService("aSyn " + i));
-					// 返回结果
+					// 返回结果，谁最先执行完成，谁先返回
 					resultsFutures.add(completionService.take());
 				}
 	
