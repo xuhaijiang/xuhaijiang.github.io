@@ -21,15 +21,18 @@ _说明：大家排队上厕所，厕所只有两个位置，来了10个人需�
 
 	public void run() {
 		try {
+			// 判断信号量中当前可用的许可数
 			if (position.availablePermits() > 0) {
 				System.out.println("顾客[" + this.id + "]进入厕所，有空位");
 			} else {
 				System.out.println("顾客[" + this.id + "]进入厕所，没空位，排队");
 			}
-			position.acquire();
+			// 获取一个许可,在提供一个许可前一直将线程阻塞，否则线程被中断
+			position.acquire(); 
 			System.out.println("顾客[" + this.id + "]获得坑位");
 			Thread.sleep((int) (Math.random() * 1000));
 			System.out.println("顾客[" + this.id + "]使用完毕");
+			// 释放一个许可，将其返回给信号量
 			position.release();
 		} catch (Exception e) {
 			e.printStackTrace();
