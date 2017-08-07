@@ -11,12 +11,11 @@ ElasticSearch就是一款基于Lucene框架的分布式搜索引擎，并且也�
 
 ##### Solr Quick Start
 
-Solr启动、关闭命令:
+Solr启动、关闭命令：
 
 	E:\solr_dir\bin>solr start -e cloud -noprompt
 	E:\solr_dir\bin>solr stop -all
 	
-	note:
 
 windows post.jar Examples 命令
 
