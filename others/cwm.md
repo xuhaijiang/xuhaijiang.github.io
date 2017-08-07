@@ -83,7 +83,7 @@ JDBC 元数据提取相关，不支持触发器的提取
 
 **ResultSetMetadata** 获取关于 ResultSet 对象中列的类型和属性信息的对象
 
-获得方式
+##### 获得方式
 
 	//获取此 ResultSet 对象的列的编号、类型和属性
 	ResultSetMetadata rsmd = rs.getMetaData();
