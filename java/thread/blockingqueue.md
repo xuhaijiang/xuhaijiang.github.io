@@ -14,3 +14,4 @@
 | E | poll(long timeout, TimeUnit unit) | 获取并移除此队列的头部，在指定的等待时间前等待可用的元素 |
 | boolean | remove(Object o) | 从此队列中移除指定的单个实例。更确切的讲，如果此队列包含一个或多个满足 o.equals(e) 的元素 e，则移除该元素。|
 | boolean | contains(Object o) | 如果此队列包含指定元素，则返回 true。 |
+| int | drainTo(Collection<? super E> c) | 移除此队列中所有可用的元素，并将他们添加给指定的 Collection 中。 |
