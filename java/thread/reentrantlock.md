@@ -27,3 +27,48 @@ _使用 lock块来调用 try , 在之前/之后的构造，经典代码如下:_
 
 
 #### 示例
+    import java.util.concurrent.ExecutorService;
+	import java.util.concurrent.Executors;
+	import java.util.concurrent.locks.ReentrantLock;
+	
+	public class MyReentrantLock extends Thread {
+		TestReentrantLock lock;
+		private int id;
+	
+		public MyReentrantLock(int i, TestReentrantLock test) {
+			this.id = i;
+			this.lock = test;
+		}
+	
+		public void run() {
+			lock.print(id);
+		}
+	
+		public static void main(String args[]) {
+			ExecutorService service = Executors.newCachedThreadPool();
+			TestReentrantLock lock = new TestReentrantLock();
+			for (int i = 0; i < 10; i++) {
+				service.submit(new MyReentrantLock(i, lock));
+			}
+			service.shutdown();
+		}
+	}
+	
+	class TestReentrantLock {
+		private ReentrantLock lock = new ReentrantLock();
+	
+		public void print(int str) {
+			try {
+				// 获取锁
+				lock.lock();
+				System.out.println(str + "获得");
+				Thread.sleep((int) (Math.random() * 3000));
+			} catch (Exception e) {
+				e.printStackTrace();
+			} finally {
+				System.out.println(str + "释放");
+				// 释放锁
+				lock.unlock();
+			}
+		}
+	}
