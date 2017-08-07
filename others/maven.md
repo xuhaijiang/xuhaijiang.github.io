@@ -17,7 +17,7 @@
 		</configuration>
 	</plugin>
 
-##### 添加外部依赖项中,使用下列方式到Maven的pom.xml
+##### 添加外部依赖项中，使用下列方式到Maven的pom.xml
 
 	<dependency>
 	 <groupId>ldapjdk</groupId>
@@ -41,7 +41,7 @@
 
 #####	设定主仓库，按设定顺序进行查找
 	<repositories>
-		<!-- 如有Nexus私服, 取消注释并指向正确的服务器地址. -->
+		<!-- 如有Nexus私服，取消注释并指向正确的服务器地址。 -->
 		<repository> 
 			<id>nexus-repos</id>
 		 	<name>Team Nexus Repository</name> 
@@ -58,7 +58,7 @@
 
 ##### 设定插件仓库 
 	<pluginRepositories>
-		<!-- 如有Nexus私服, 取消注释并指向正确的服务器地址. -->
+		<!-- 如有Nexus私服，取消注释并指向正确的服务器地址。 -->
 		<pluginRepository>
  			<id>nexus-repos</id> 
 			<name>Team Nexus Repository</name>
