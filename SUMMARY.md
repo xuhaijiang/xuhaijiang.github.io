@@ -11,6 +11,7 @@
     * [1.1.6 CountDownLatch](java/thread/countdownlatch.md)
     * [1.1.7 CyclicBarrier](java/thread/cyclicbarrier.md)
     * [1.1.8 Future](java/thread/future.md)
+    * [ScheduledExecutorService](java/thread/scheduledexecutorservice.md)
 * [2 spring](spring/README.md)
   * [2.1 annotation](spring/annotation.md)
 * [3 linux](linux/README.md)
