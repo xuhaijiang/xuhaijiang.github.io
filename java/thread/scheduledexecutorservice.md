@@ -6,7 +6,7 @@
 #### API
 | 返回 | 方法 | 说明 |
 |:---:|:---|:---|
-| void | get() | 获取执行结果，这个方法会产生阻塞，会一直等到任务执行完毕才返回。 |
+| ScheduledFuture<?> | schedule(Runnable command,long delay,TimeUnit unit) | 创建并执行在给定延迟后启用的一次性操作。 |
 | boolean | isDone() | 任务是否完成，如果完成则返回 true 。|
 | boolean | cancel(boolean mayInterruptIfRunning) | 取消任务，如果取消成功则返回 true，如果取消失败则返回 false 。 |
 
