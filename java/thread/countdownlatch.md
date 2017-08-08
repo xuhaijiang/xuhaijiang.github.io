@@ -1,4 +1,4 @@
-#### CountDownLatch
+#### CountDownLatch 同步工具
 
 #### API
 
