@@ -8,6 +8,7 @@
     * [1.1.3 ReentrantLock](java/thread/reentrantlock.md)
     * [1.1.4 BlockingQueue](java/thread/blockingqueue.md)
     * [1.1.5 CompletionService](java/thread/completionservice.md)
+    * [CountDownLatch](java/thread/countdownlatch.md)
 * [2 spring](spring/README.md)
   * [2.1 annotation](spring/annotation.md)
 * [3 linux](linux/README.md)
