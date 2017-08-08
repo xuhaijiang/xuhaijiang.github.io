@@ -10,6 +10,7 @@
     * [1.1.5 CompletionService](java/thread/completionservice.md)
     * [CountDownLatch](java/thread/countdownlatch.md)
     * [CyclicBarrier](java/thread/cyclicbarrier.md)
+    * [Future](java/thread/future.md)
 * [2 spring](spring/README.md)
   * [2.1 annotation](spring/annotation.md)
 * [3 linux](linux/README.md)
