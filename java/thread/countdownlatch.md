@@ -17,6 +17,47 @@ CountDownLatch如其所写，是一个倒计数的锁存器，当计数减至0�
 
 
 #### 示例
+    import java.util.concurrent.CountDownLatch;
+	import java.util.concurrent.ExecutorService;
+	import java.util.concurrent.Executors;
+	
+	public class TestCountDownLatch {
+		public static void main(String[] args) throws InterruptedException {
+			// 开始的倒数锁
+			final CountDownLatch begin = new CountDownLatch(1);
+			// 结束的倒数锁
+			final CountDownLatch end = new CountDownLatch(10);
+			// 十名选手
+			final ExecutorService exec = Executors.newFixedThreadPool(10);
+	
+			for (int index = 0; index < 10; index++) {
+				final int NO = index + 1;
+				Runnable run = new Runnable() {
+					public void run() {
+						try {
+							// 一直阻塞,等待发令枪开跑
+							begin.await();
+							Thread.sleep((long) (Math.random() * 10000));
+							System.out.println("No." + NO + " arrived");
+						} catch (InterruptedException e) {
+						} finally {
+							// 选手到达终点
+							end.countDown();
+						}
+					}
+				};
+				exec.submit(run);
+			}
+			System.out.println("Game Start");
+			// 发令枪开跑
+			begin.countDown();
+			
+			// 等待全部选手到达终点
+			end.await();
+			System.out.println("Game Over");
+			exec.shutdown();
+		}
+	}
 
 
 
