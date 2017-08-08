@@ -7,7 +7,7 @@
 | 返回 | 方法 | 说明 |
 |:---:|:---|:---|
 | ScheduledFuture<?> | schedule(Runnable command,long delay,TimeUnit unit) | 创建并执行在给定延迟后启用的一次性操作。 |
-| boolean | isDone() | 任务是否完成，如果完成则返回 true 。|
+| ScheduledFuture<?> | scheduleAtFixedRate(Runnable command,long initialDelay,long period,TimeUnit unit) | 创建并执行一个在给定初始延迟后首次启动的定期操作，后续操作具有给定的周期，也就是将在 initialDelay 后开始执行，接着在 initialDelay + 2 * period后执行，依次类推。|
 | boolean | cancel(boolean mayInterruptIfRunning) | 取消任务，如果取消成功则返回 true，如果取消失败则返回 false 。 |
 
 
