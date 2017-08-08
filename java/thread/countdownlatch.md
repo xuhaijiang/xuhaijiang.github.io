@@ -16,7 +16,6 @@ CountDownLatch如其所写，是一个倒计数的锁存器，当计数减至0�
 | long | getCount() | 返回当前计数。 |
 
 
-
 #### 示例
 
 
