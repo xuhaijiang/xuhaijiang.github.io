@@ -12,6 +12,7 @@
     * [1.1.7 CyclicBarrier](java/thread/cyclicbarrier.md)
     * [1.1.8 Future](java/thread/future.md)
     * [1.1.9 ScheduledExecutorService](java/thread/scheduledexecutorservice.md)
+  * [1.1 design](java/design/README.md)
 * [2 spring](spring/README.md)
   * [2.1 annotation](spring/annotation.md)
 * [3 linux](linux/README.md)
