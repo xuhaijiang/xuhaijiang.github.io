@@ -82,7 +82,7 @@
 		}
 	}
 
-#### 门禁系统
+#### 门禁系统示例
     import java.util.concurrent.BrokenBarrierException;
 	import java.util.concurrent.CyclicBarrier;
 	
