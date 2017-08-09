@@ -1,5 +1,9 @@
 #### FutureTask
+可取消的异步计算。利用开始和取消计算的方法、查询计算是否完成的方法和获取计算结果的方法，此类提供了对 Future 的基本实现。仅在计算完成时才能获取结果；如果计算尚未完成，则阻塞 get 方法。一旦计算完成，就不能再重新开始或取消计算。
 
+FutureTask 有点类似Runnable，都可以通过Thread来启动，不过FutureTask可以返回执行完毕的数据，并且FutureTask的get方法支持阻塞。
+
+由于：FutureTask可以返回执行完毕的数据，并且FutureTask的get方法支持阻塞这两个特性，我们可以用来预先加载一些可能用到资源，然后要用的时候，调用get方法获取（如果资源加载完，直接返回；否则继续等待其加载完成）。
 
 #### 示例
     import java.util.concurrent.Callable;
