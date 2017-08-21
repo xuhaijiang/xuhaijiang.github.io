@@ -85,4 +85,4 @@ NAT(Network Address Translation)，是一种在IP数据包通过路由器时重�
 目的地址转换
 
 #### IDC
-IDC(Internat Data Center)
+IDC(Internat Data Center)，互联网数据中心
