@@ -76,7 +76,7 @@ DNS,域名系统。通过主机名，最终得到该主机名对应的IP地址
 ECS(elastic compute service) 是一种弹性可伸缩的计算服务。
 
 #### 地址转换 NAT
-NAT(Network Address Translation)，是一种在IP数据包通过路由器时重写 _源IP地址_ 或 _目的IP地址_ 的技术。
+NAT(Network Address Translation)，是一种在IP数据包通过路由器时重写**源IP地址**或**目的IP地址**的技术。
 ##### SNAT
 源地址转换，其作用是将IP数据包的源地址转换成另外一个地址。
 
