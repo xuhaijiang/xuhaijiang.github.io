@@ -59,12 +59,12 @@ DNS,域名系统。通过主机名，最终得到该主机名对应的IP地址
 2. 自主网络系统中网关之间交换器路由信息的协议，互联网的网关之间
 
 #### 负载均衡
-- SLB(server load balancing) 
-- CLB(client load balancing)
+- SLB(Server Load Balancing) 
+- CLB(Client Load Balancing)
 ##### SLB
 服务器负载均衡，负载均衡算法：
-- WRR(weighted round robin)：加权轮询算法分配连接。
-- WLC(weighted least connections)：通过一定的权值，将下一个连接分配给活动连接数少的服务器。
+- WRR(Weighted Round Robin)：加权轮询算法分配连接。
+- WLC(Weighted Least Connections)：通过一定的权值，将下一个连接分配给活动连接数少的服务器。
 ##### CLB
 客户负载均衡，采用一致性hash算法，映射到服务节点。
 ##### F5
@@ -73,7 +73,7 @@ DNS,域名系统。通过主机名，最终得到该主机名对应的IP地址
 软负载，采用反向代理技术。
 
 #### 云服务器弹性计算服务 ECS
-ECS(elastic compute service) 是一种弹性可伸缩的计算服务。
+ECS(Elastic Compute Service) 是一种弹性可伸缩的计算服务。
 
 #### 地址转换 NAT
 NAT(Network Address Translation)，是一种在IP数据包通过路由器时重写**源IP地址**或**目的IP地址**的技术。
@@ -83,3 +83,6 @@ NAT(Network Address Translation)，是一种在IP数据包通过路由器时重�
 源地址转换即将内网地址向外网访问时，发起访问的内网IP地址转换为指定的IP地址(可指定具体的服务以及相应的端口或端口范围)，这可以使内网中使用保留IP地址的主机访问外部网络，即内网的多部主机可以通过一个有效的公网IP地址访问外部网络。
 ##### DNAT
 目的地址转换
+
+#### IDC
+IDC(Internat Data Center)
