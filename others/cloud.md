@@ -63,6 +63,11 @@ DNS,域名系统。通过主机名，最终得到该主机名对应的IP地址
 - CLB(client load balancing)
 ##### SLB
 服务器负载均衡，负载均衡算法：
-- WRR(weighted round robin)：加权轮询算法分配连接
-- WLC(weighted least connections)：通过一定的权值，将下一个连接分配给活动连接数少的服务器
+- WRR(weighted round robin)：加权轮询算法分配连接。
+- WLC(weighted least connections)：通过一定的权值，将下一个连接分配给活动连接数少的服务器。
 ##### CLB
+客户负载均衡，采用一致性hash算法，映射到服务节点。
+##### F5
+硬件，直接通过智能交换机实现。
+##### NGINX
+软负载，采用反向代理技术。
