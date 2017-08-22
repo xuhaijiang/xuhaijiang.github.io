@@ -31,6 +31,11 @@
 
 
 - Settings属性
+
+
+    ${settings.localRepository}
+
+
 - Java系统属性
 
 
