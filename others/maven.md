@@ -10,6 +10,7 @@
 
 - POM属性
 
+
     ${project.artifactId}对应了project>artifactId元素的值
     ${project.build.directory} 构建目录，默认为target
     ${project.build.outputDirectory} 构建过程输出目录，默认为target/classes
