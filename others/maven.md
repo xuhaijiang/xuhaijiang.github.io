@@ -1,5 +1,14 @@
 #### maven
 
+##### maven内置变量
+    ${base} 项目根目录
+    ${project.build.directory} 构建目录，默认为target
+    ${project.build.outputDirectory} 构建过程输出目录，默认为target/classes
+    ${project.build.finalName} 产出物名称，默认为${project.artifactId}-${project.version}
+    ${project.packaging} 打包类型，默认为jar
+    ${project.xxx} 当前pom文件的任意节点内容
+    
+
 
 ##### 自定义的 jar 到 Maven 的本地资源库
 
