@@ -17,6 +17,17 @@
     ${project.build.finalName} 产出物名称，默认为${project.artifactId}-${project.version}
     ${project.packaging} 打包类型，默认为jar
     ${project.xxx} 当前pom文件的任意节点内容
+    
+- 自定义属性
+
+在pom中 properties 元素下自定义的Maven属性。
+例如:
+
+    <project>  
+        <properties>  
+            <xhj.version>xhj.1.0</xhj.version>  
+        </properties>  
+    </project> 
 
 ##### 自定义的 jar 到 Maven 的本地资源库
 
