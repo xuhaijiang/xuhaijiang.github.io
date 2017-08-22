@@ -29,6 +29,14 @@
         </properties>  
     </project> 
 
+
+- Settings属性
+- Java系统属性
+- 环境变量属性
+
+    ${env.JAVA_HOME}
+    通过命令行mvn help:system查看所有环境变量
+
 ##### 自定义的 jar 到 Maven 的本地资源库
 
 	mvn install:install-file -Dfile=e:\kaptcha-2.3.2.jar -DgroupId=com.google.code -DartifactId=kaptcha -Dversion=2.3.2 -Dpackaging=jar
