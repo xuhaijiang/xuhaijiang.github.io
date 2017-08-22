@@ -32,6 +32,11 @@
 
 - Settings属性
 - Java系统属性
+
+
+    ${user.home}
+    
+        
 - 环境变量属性
 
 
