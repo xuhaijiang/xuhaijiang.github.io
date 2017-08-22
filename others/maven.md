@@ -34,6 +34,7 @@
 - Java系统属性
 - 环境变量属性
 
+
     ${env.JAVA_HOME}
     通过命令行mvn help:system查看所有环境变量
 
