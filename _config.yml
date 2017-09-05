@@ -1,10 +1,10 @@
 # Site settings
-name: Blog
+name: Less Or More
 email: haijiang_xu@qq.com
 author: Haijiang Xu
 github: https://github.com/xuhaijiang/
 baseurl: ""
-description: 记录. . .
+description: Actually, less is more!
 meta_description: 个人博客;
 motto: It's our wits that make us men.
 banner: 学而不思则罔，思而不学则殆。
