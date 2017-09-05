@@ -1,3 +1,15 @@
+---
+layout: post
+title:  Node.js-学习笔记(一)-入门
+date:   2014-12-27 13:03:01 +0800
+category : 技术文档
+tag : node.js
+---
+ 
+ * content
+{:toc}
+
+
 #### 云相关概念
 
 ![](../image/cloud/云计算的组成.png)
