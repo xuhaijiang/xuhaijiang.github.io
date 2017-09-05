@@ -8,7 +8,7 @@ permalink: /about/books/
 {:toc}
 
 
-2016书单
+2017书单
 -----------------------------------------------------------------
 
 + 《Think in java 4th》
@@ -21,4 +21,3 @@ permalink: /about/books/
 + 《Maven实战》
 + 《HTTP协议详解》
 + 《TCP/IP协议详解-卷一》
-+ 《阿弥陀佛么么哒》
