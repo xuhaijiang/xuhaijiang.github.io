@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  分布式调度系统-集
+title:  分布式调度系统-列表
 date:   2017-09-01 11:03:01 +0800
 category : 技术文档
 tag : 
