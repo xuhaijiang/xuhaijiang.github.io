@@ -1,3 +1,19 @@
+---
+layout: post
+title:  高级搜索
+date:   2017-08-22 14:03:01 +0800
+category : 学习方法
+tag : 
+- 搜索
+- Google
+---
+ 
+ * content
+{:toc}
+
+
+
+
 #### 搜索命令
 
 [国际视野Google](https://www.google.com/ncr/)
