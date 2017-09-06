@@ -1,3 +1,15 @@
+---
+layout: post
+title: maven命令-入门
+date: 2017-04-26 17:33:17 +0800
+category : 技术文档
+tag :
+- maven
+---
+* content
+{:toc}
+
+
 ##### [Lucene](http://lucene.apache.org/)
 Lucene是目前最受欢迎的Java全文搜索框架，准确地说，它是一个全文检索引擎的架构，提供了完整的查询引擎和索引引擎，部分文本分析引擎。Lucene为开发人员提供了相当完整的工具包，可以非常方便地实现强大的全文检索功能。
 
