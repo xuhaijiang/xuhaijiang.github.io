@@ -1,0 +1,15 @@
+#### Future 计算异步执行任务的返回
+Future就是对于具体的Runnable或者Callable任务的执行结果进行取消、查询是否完成、获取结果。必要时可以通过get方法获取执行结果，该方法会阻塞直到任务返回结果。
+
+
+
+#### API
+| 返回 | 方法 | 说明 |
+|:---:|:---|:---|
+| void | get() | 获取执行结果，这个方法会产生阻塞，会一直等到任务执行完毕才返回。 |
+| boolean | isDone() | 任务是否完成，如果完成则返回 true 。|
+| boolean | cancel(boolean mayInterruptIfRunning) | 取消任务，如果取消成功则返回 true，如果取消失败则返回 false 。 |
+
+
+
+#### 示例

@@ -1,0 +1,1 @@
+[设计模式阅读地址](https://quanke.gitbooks.io/design-pattern-java/content/)
