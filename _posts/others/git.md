@@ -1,3 +1,16 @@
+-
+--
+layout: post
+title: Git命令-入门
+date: 2017-05-02 11:03:01 +0800
+category : 技术文档
+tag :
+- Git
+---
+* content
+{:toc}
+
+
 #### Git
 ##### git 初始化
 	git init
