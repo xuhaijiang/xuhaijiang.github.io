@@ -17,7 +17,8 @@ tag :
 
 #### 客户端
 
-  DNS劫持: HttpDNS、LocalDNS	
+  DNS劫持: HttpDNS、LocalDNS
+  
   CDN加速: 静态资源（js、css 、image）
   客户端缓存:  HTTP头设置  Cache-Control
   服务降级： 网络高峰时减少非关键服务的请求
