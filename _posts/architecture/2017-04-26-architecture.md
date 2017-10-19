@@ -10,8 +10,6 @@ tag :
 * content
 {:toc}
 
-#### 某架构
-
 #### 整体架构图
 
 ![](/resources/images/architecture/1/3.1.服务层架构.png)
