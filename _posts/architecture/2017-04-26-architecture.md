@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 某电商架构
+title: 某架构
 date: 2017-04-26 17:33:17 +0800
 category : 技术文档
 tag :
