@@ -17,12 +17,11 @@ tag :
 
 #### 客户端
 
-  DNS劫持: HttpDNS、LocalDNS
-  
-  CDN加速: 静态资源（js、css 、image）
-  客户端缓存:  HTTP头设置  Cache-Control
-  服务降级： 网络高峰时减少非关键服务的请求
-  网络质量检测: 按客户不同网络环境设置超时参数、服务并发数、产品体验（image质量）
+- DNS劫持：HttpDNS、LocalDNS
+- CDN加速：静态资源（js、css 、image）
+- 客户端缓存：HTTP头设置  Cache-Control
+- 服务降级网络高峰时减少非关键服务的请求
+- 网络质量检测：按客户不同网络环境设置超时参数、服务并发数、产品体验（image质量）
   
 #### 入口层
 
