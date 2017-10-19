@@ -6,7 +6,7 @@ github: https://github.com/xuhaijiang/
 baseurl: ""
 description: Just Record。
 meta_description: 个人博客;
-motto: 认识你自己。
+motto: 
 banner: 学而不思则罔，思而不学则殆。
 
 #permalink: /:categories/:year/:month/:day/:title/
