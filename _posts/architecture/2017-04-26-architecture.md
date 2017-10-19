@@ -5,7 +5,7 @@ date: 2017-04-26 17:33:17 +0800
 category : 技术文档
 tag :
 - java
-- jni
+- 架构设计
 ---
 * content
 {:toc}
