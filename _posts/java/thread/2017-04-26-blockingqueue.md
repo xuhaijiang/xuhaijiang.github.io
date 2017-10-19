@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BlockingQueue java阻塞队列
+title: BlockingQueue-java阻塞队列
 date: 2017-04-26 17:33:17 +0800
 category : 技术文档
 tag :
