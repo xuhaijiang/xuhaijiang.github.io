@@ -40,6 +40,9 @@ tag :
 
 ##### 缓存层
 
+![](/resources/images/architecture/1/4.1.缓存层架构-游览记录.png)
+![](/resources/images/architecture/1/4.2.缓存层架构-列表数据.png)
+![](/resources/images/architecture/1/4.3.缓存层架构-订单数据.png)
 
 ##### 数据层
 不同数据中心   专线
